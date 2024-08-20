@@ -11,6 +11,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "dayjs": "^1.11.13"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0"
   }
 }
