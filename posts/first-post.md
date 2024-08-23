@@ -20,13 +20,13 @@ From there, I had to figure out what I needed to have a blogging solution build 
 
 I used git (an industry standard versions control tool) to manage the versions of my blog and my account on Github to (big company that offers code related services to developers) to store a remote repository of my codebase.  The [guide](https://www.digitalocean.com/community/tutorials/how-to-create-and-deploy-your-first-eleventy-website) calls for an integration between digital ocean and github.  When a new version of the code for my blog is pushed to my github account, that triggers digital ocean to pull the latest code for my blog and build a new version of the site with the latest changes.  
 
-The [guide](https://www.digitalocean.com/community/tutorials/how-to-create-and-deploy-your-first-eleventy-website) also calls for setting up a domain.  I created an account on Squarespace and purchased the domain I wanted [nathanarvan.dev](nathanarvan.dev).
+The [guide](https://www.digitalocean.com/community/tutorials/how-to-create-and-deploy-your-first-eleventy-website) also calls for setting up a domain.  I created an account on Squarespace and purchased the domain I wanted nathanarvan.dev.
 
 One other aside about Digital Ocean: I have used other cloud providers before and I like digital ocean better.  I used AWS and Azure at my last job.  I found those platforms hard to use.  They felt they were built for backend/full stack developers who were trying to solve enterprise scale problems (in fairness, that made those tools well suited to the problems that needed to be solved at my job.)  But now that I am doing web development by myself I find that digital ocean is much better at offering solutions in terms I am familiar with and take care of things at the infrastructure level so I can make choices at the application level.
 
 ###  Costs
 
-I had to pay a fee to by my domain and I will need to pay a yearly fee in order to renew my ownership of [nathanarvan.dev](nathanarvan.dev).
+I had to pay a fee to by my domain and I will need to pay a yearly fee in order to renew my ownership of nathanarvan.dev.
 
 As long as I do things correctly, I can update my site an infitite number of times and people can visit my site an infinite number of times and Digital Ocean will charge me nothing. (Hooray static site generators).  We will see if that understanding is correct and if I can do things correctly.
 
