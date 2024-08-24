@@ -1,8 +1,8 @@
 ---
-title: My First Post
-description: My first entry into blogging
+title: Building a blog site
+description: How I went about creating this blog
 tags: post
-date: 2024-08-23
+date: 2024-08-24
 layout: layouts/post.liquid
 ---
 
