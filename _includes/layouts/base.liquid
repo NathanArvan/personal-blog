@@ -7,12 +7,14 @@
   <title>{{ title }}</title>
 </head>
 <body>
+  <div class="blog-container">
     <header class="page-container">{% include "nav.liquid" %}</header>
-  <header class="page-container">
-    <h1>{{ title }}</h1>
-  </header>
-  <main class="page-container">
-    {{ content }}
-  </main>
+    <header class="page-container">
+      <h1>{{ title }}</h1>
+    </header>
+    <main class="page-container">
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>
