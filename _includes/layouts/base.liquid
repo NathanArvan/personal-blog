@@ -8,13 +8,13 @@
 </head>
 <body>
   <div class="blog-container">
-    <header class="page-container">{% include "nav.liquid" %}</header>
-    <header class="page-container">
-      <h1>{{ title }}</h1>
-    </header>
-    <main class="page-container">
-      {{ content }}
-    </main>
+      {% include "nav.liquid" %}
+      <header class="grid-center">
+        <h1>{{ title }}</h1>
+      </header>
+      <main class="grid-center">
+        {{ content }}
+      </main>
   </div>
 </body>
 </html>
