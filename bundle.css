@@ -4,48 +4,47 @@
     --content-width: 1000px
 }
 
+body {
+    background-color: Var(--primary);
+    display: grid;
+    justify-content: center;
+}
 .grid-center {
     display: grid;
     justify-content: center;
 }
 
 @media (width < 1000px) {
-    .page-layout {
-        max-width: 100%;
-    }
-    
-    .navbar {
-        background-color: var(--secondary);
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+    .blog-container {
+        background-color: #EEEEEE;
         width: 100%;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        border-bottom: 1px solid var(--primary);
+        border-radius: 4px;
+        display: grid;
+        justify-content: center;
     }
 }
 
 @media (width >= 1000px) {
-    .page-layout {
-        max-width: var(--content-width);
-    }
-
-    .navbar {
-        background-color: var(--secondary);
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+    .blog-container {
+        background-color: #EEEEEE;
         width: var(--content-width);
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-        border-bottom: 1px solid var(--primary);
+        border-radius: 4px;
+        display: grid;
+        justify-content: center;
     }
 } 
+
+.navbar {
+    background-color: var(--secondary);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid var(--primary);
+}
 
 .navbar-end {
     display:  flex;
@@ -60,6 +59,7 @@
     padding: 1rem;
     border-radius: 4px;
     border: 1px solid Var(--primary);
+    text-align: center;
 }
 
 .card  {
@@ -76,15 +76,7 @@
     width: fit-content;
     margin-top: 4px;
 }
-.blog-container {
-    background-color: #EEEEEE;
-    width: fit-content;
-    border-radius: 4px;
-    display: grid;
-    justify-content: center;
-}
-body {
-    background-color: Var(--primary);
-    display: grid;
-    justify-content: center;
+
+.page-layout {
+    padding: 1rem;
 }
