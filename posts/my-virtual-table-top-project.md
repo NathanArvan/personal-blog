@@ -33,7 +33,7 @@ A Virtual Table Top (VTT going forward) is a tool that allows a group of people 
 
  ### Previous Attempt
 
- The current code base is not my first attempt at this project. You can see that attempt here.  In that attempt, I tried to write the backend in javascript using the express.js framework.  My current attempt is written in C# using the .Net framework. Express.js is a very light weight and unopinionated framework.  When I started my previous attempt, I did not have enough experience to architect a backend app that connections to a database, does restful http requests, and does websockets.  I was making slow progress and got more frustrated over time. Eventually I gave up on that attempt.
+ The current code base is not my first attempt at this project. You can see that attempt [here](https://github.com/NathanArvan/gameboard-meanstack).  In that attempt, I tried to write the backend in javascript using the express.js framework.  My current attempt is written in C# using the .Net framework. Express.js is a very light weight and unopinionated framework.  When I started my previous attempt, I did not have enough experience to architect a backend app that connections to a database, does restful http requests, and does websockets.  I was making slow progress and got more frustrated over time. Eventually I gave up on that attempt.
 
  In my most recent job, I was able to get more backend and database experience, as well as experience with the CF# and .Net technologies.  While working there I started my current attempt at this project.  I figured using the technologies I was learning at work would make this project more likely to be successful and practicing using the technologies I used at work would make my job easier.  I have had periods where I felt my current attempt is going slowly, but I have not had the urge to start over yet.
 
@@ -52,7 +52,7 @@ A Virtual Table Top (VTT going forward) is a tool that allows a group of people 
   - Classes
   - and Users
 
-I can run a local front end web application, backend web application, and database application locally.  I have the ability to create, read, update, and delete instances of the entities I have defined.
+I can run a local [front end web application](https://github.com/NathanArvan/ttrpgclient), [backend web application](https://github.com/NathanArvan/GameAPI), and database application locally.  I have the ability to create, read, update, and delete instances of the entities I have defined.
 
 There is the functionality for a user to upload an image and save that image as part of a token they create and then display that image in the browser when the token is requested.
 
