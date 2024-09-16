@@ -15,6 +15,7 @@
     "dayjs": "^1.11.13"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "luxon": "^3.5.0"
   }
 }
