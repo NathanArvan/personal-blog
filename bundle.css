@@ -9,6 +9,8 @@ body {
     display: grid;
     justify-content: center;
 }
+
+
 .grid-center {
     display: grid;
     justify-content: center;
@@ -75,6 +77,11 @@ body {
     padding: 4px;
     width: fit-content;
     margin-top: 4px;
+}
+
+.post-title {
+    padding: 4px;
+    text-align: center;
 }
 
 .page-layout {
