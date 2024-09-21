@@ -81,6 +81,13 @@ body {
     padding: 1rem;
 }
 
+@media (width < 1000px) {
+  code {
+    display: inline-block;
+    width: 80vw;
+  }
+}
+
 /* PrismJS 1.29.0
 https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+typescript */
 /**
