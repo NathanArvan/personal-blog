@@ -3,7 +3,8 @@ title: Posts
 layout: layouts/base.liquid
 ---
 <div >
-  {% for post in collections.post | reverse %}
+  {% assign posts = collections.post | reverse %}
+  {% for post in posts %}
     <div class="column">
       <div class="card">
         <header class="card-header">
