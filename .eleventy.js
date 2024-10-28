@@ -1,9 +1,10 @@
-const { DateTime } = require('luxon');
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+import { EleventyRenderPlugin } from "@11ty/eleventy"
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { DateTime } from "luxon";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
-module.exports = function(eleventyConfig) {
+
+export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("bundle.css");
     
     eleventyConfig.addPlugin(syntaxHighlight);

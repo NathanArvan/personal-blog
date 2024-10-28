@@ -2,6 +2,7 @@
   "name": "personalblog",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve"
