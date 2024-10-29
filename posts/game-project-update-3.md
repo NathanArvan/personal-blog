@@ -2,7 +2,7 @@
 title: Game Project Update 3
 description: Images, Figma, and Battle UI
 tags: post
-date: 2024-10-25
+date: 2024-10-29
 layout: layouts/update3-post.liquid
 ---
 ### Review of what I last did
