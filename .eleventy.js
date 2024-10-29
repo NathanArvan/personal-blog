@@ -28,29 +28,30 @@ export default function (eleventyConfig) {
       // formats: ["auto"],
   
       // optional, output image widths
-      // widths: ["auto"],
+      widths: [300, 900, "auto"],
   
       // optional, attributes assigned on <img> override these values.
       defaultAttributes: {
+        sizes : "100vh",
         loading: "lazy",
         decoding: "async",
       },
     })
 
-    eleventyConfig.addShortcode("image", async function (src, alt, widths = [300, 600], sizes = "100vh") {
-      let metadata = await Image(src, {
-        widths,
-        formats: ["avif", "jpeg"],
-      });
+    // eleventyConfig.addShortcode("image", async function (src, alt, widths = [300, 600], sizes = "100vh") {
+    //   let metadata = await Image(src, {
+    //     widths,
+    //     formats: ["avif", "jpeg"],
+    //   });
   
-      let imageAttributes = {
-        alt,
-        sizes,
-        loading: "lazy",
-        decoding: "async",
-      };
+    //   let imageAttributes = {
+    //     alt,
+    //     sizes,
+    //     loading: "lazy",
+    //     decoding: "async",
+    //   };
   
-      // You bet we throw an error on a missing alt (alt="" works okay)
-      return Image.generateHTML(metadata, imageAttributes);
-    });
+    //   // You bet we throw an error on a missing alt (alt="" works okay)
+    //   return Image.generateHTML(metadata, imageAttributes);
+    // });
   };

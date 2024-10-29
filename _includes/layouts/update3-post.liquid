@@ -2,8 +2,22 @@
 layout: layouts/post.liquid
 ---
 {{content}}
-<img src="/assets/Warrior Token.svg" alt="Warrior">
-<img src="/assets/Sage Token.svg" alt="Sage">
-<img src="/assets/Thief Token.svg" alt="Thief">
+<div style="display: flex; gap: 8px; justify-content:space-between; flex-wrap:wrap">
+    <div style="display: flex; flex-direction:column;align-items: center">
+        <img class="character-image" src="/assets/Warrior Token.svg" alt="Warrior">
+        <div>Warrior Token</div>
+    </div>
+    <div style="display: flex; flex-direction:column;align-items: center">
+        <img class="character-image" src="/assets/Sage Token.svg" alt="Sage">
+        <div>Sage Token</div>
+    </div>
+    <div style="display: flex; flex-direction:column;align-items: center">
+        <img class="character-image" src="/assets/Thief Token.svg" alt="Thief">
+        <div>Thief Token</div>
+    </div>
+</div>
 
 {%  renderFile './posts/update3-part-2.md' %}
+
+
+<img src="/assets/Desktop - 2.png" class="mock-up-image" alt="UI Mockup showing characters on map, inititive order, character details, character actions, and a end turn button">
