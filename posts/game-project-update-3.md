@@ -17,4 +17,6 @@ I made my own SVG images for this chunk of work.  Originally I was going to use 
 
 I made a few simple assets in Figma.  I have used Figma before professionally, but more to plan the UI of a website that to create an asset.  
 
+I have not yet made system wide decisions on how I will handle image widths, heights, and aspect ratios, so things will look a little squashed.
+
 Here are the characters I made:
